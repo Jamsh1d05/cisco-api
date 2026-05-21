@@ -1,0 +1,1 @@
+from app.bot.notifier import notifier

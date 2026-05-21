@@ -1,0 +1,129 @@
+XADD alerts_stream * \
+timestamp "2026-04-09T10:11:41.241525" \
+type "Intrusion Event" \
+src_ip "36.142.117.172" \
+dst_ip "10.10.42.5" \
+severity "high" \
+title "SQL HTTP URI blind injection attempt" \
+classification "Web Application Attack" \
+protocol "TCP" \
+blocked "Yes" \
+src_lat "0.0" \
+src_lon "0.0"
+
+XADD alerts_stream * \
+timestamp "2026-04-09T10:12:11.079633" \
+type "Intrusion Event" \
+src_ip "36.142.117.172" \
+dst_ip "10.10.42.5" \
+severity "high" \
+title "SQL generic sql with comments injection attempt - GET parameter" \
+classification "Web Application Attack" \
+protocol "TCP" \
+blocked "Yes" \
+src_lat "0.0" \
+src_lon "0.0"
+
+XADD alerts_stream * \
+timestamp "2026-04-09T10:12:45.352632" \
+type "Intrusion Event" \
+src_ip "36.142.117.172" \
+dst_ip "10.10.42.5" \
+severity "high" \
+title "SERVER-APACHE Apache Struts remote code execution attempt - POST parameter" \
+classification "Attempted Administrator Privilege Gain" \
+protocol "TCP" \
+blocked "Yes" \
+src_lat "0.0" \
+src_lon "0.0"
+
+XADD alerts_stream * \
+timestamp "2026-04-09T10:13:24.477176" \
+type "Intrusion Event" \
+src_ip "36.142.117.172" \
+dst_ip "10.10.42.5" \
+severity "medium" \
+title "HI_CLIENT_OVERSIZE_DIR" \
+classification "Potentially Bad Traffic" \
+protocol "TCP" \
+blocked "No" \
+src_lat "0.0" \
+src_lon "0.0"
+
+XADD alerts_stream * \
+timestamp "2026-04-09T10:13:49.313857" \
+type "Intrusion Event" \
+src_ip "36.142.117.172" \
+dst_ip "10.10.42.5" \
+severity "high" \
+title "INDICATOR-SHELLCODE ysoserial Java object deserialization exploit attempt" \
+classification "Executable Code was Detected" \
+protocol "TCP" \
+blocked "Yes" \
+src_lat "0.0" \
+src_lon "0.0"
+
+XADD alerts_stream * \
+timestamp "2026-04-09T10:15:10.566450" \
+type "Intrusion Event" \
+src_ip "36.142.117.172" \
+dst_ip "10.10.42.5" \
+severity "high" \
+title "SERVER-WEBAPP Adobe Commerce arbitrary file upload attempt" \
+classification "Web Application Attack" \
+protocol "TCP" \
+blocked "Yes" \
+src_lat "0.0" \
+src_lon "0.0"
+
+XADD alerts_stream * \
+timestamp "2026-04-09T10:15:35.968851" \
+type "Intrusion Event" \
+src_ip "36.142.117.172" \
+dst_ip "10.10.42.5" \
+severity "high" \
+title "SERVER-WEBAPP JBoss JMXInvokerServlet access attempt" \
+classification "Attempted Administrator Privilege Gain" \
+protocol "TCP" \
+blocked "Yes" \
+src_lat "0.0" \
+src_lon "0.0"
+
+XADD alerts_stream * \
+timestamp "2026-04-09T10:15:42.595249" \
+type "Intrusion Event" \
+src_ip "36.142.117.172" \
+dst_ip "10.10.42.5" \
+severity "high" \
+title "POLICY-OTHER MinIO REST API information disclosure attempt" \
+classification "Potential Corporate Policy Violation" \
+protocol "TCP" \
+blocked "No" \
+src_lat "0.0" \
+src_lon "0.0"
+
+XADD alerts_stream * \
+timestamp "2026-04-09T10:17:00.213984" \
+type "Intrusion Event" \
+src_ip "36.142.117.172" \
+dst_ip "10.10.42.5" \
+severity "high" \
+title "SQL 1 = 1 - possible sql injection attempt" \
+classification "Web Application Attack" \
+protocol "TCP" \
+blocked "Yes" \
+src_lat "0.0" \
+src_lon "0.0"
+
+XADD alerts_stream * \
+timestamp "2026-04-09T10:19:13.302324" \
+type "Intrusion Event" \
+src_ip "36.142.117.172" \
+dst_ip "10.10.42.5" \
+severity "high" \
+title "MOVEit Transfer SSRF attempt" \
+classification "Web Application Attack" \
+protocol "TCP" \
+blocked "Yes" \
+src_lat "0.0" \
+src_lon "0.0"

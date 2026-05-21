@@ -1,0 +1,39 @@
+# Dependencies
+venv/
+env/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+#DB
+GeoLite2-City_20260417/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Temporary files
+*.tmp
+temp/
+
+#Tests
+tests/
+
+# Credentials and secrets
+sample.json
+api_ref.txt
+deps_estreamer.txt
+seeds_alerts.txt
