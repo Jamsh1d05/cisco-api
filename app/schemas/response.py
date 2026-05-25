@@ -4,7 +4,6 @@ from pydantic import BaseModel, Field
 
 T = TypeVar("T")
 
-
 class LoginRequest(BaseModel):
     username: str
     password: str
