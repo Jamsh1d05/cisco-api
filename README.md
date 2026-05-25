@@ -292,14 +292,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Contributions are welcome! 
 
-
-## Acknowledgments
-
-- Cisco eStreamer for event source
-- MaxMind for GeoLite2 database
-- FastAPI community for the excellent framework
-- Redis community for the streaming solution
-
 ---
 
 **Last Updated**: May 2026  
